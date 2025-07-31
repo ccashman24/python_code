@@ -2,6 +2,10 @@
 # Last updated: 9/16/23
 # SMTP = Simple Mail Transfer Protocol
 
+'''
+TESTING OUT CODE CHANGES AND COMMIT HERE
+'''
+
 import os
 # import sys
 import smtplib
@@ -16,7 +20,7 @@ from email.mime.text import MIMEText
 
 print()
 load_dotenv(find_dotenv())
-path = 'C:/Users/ccash/python_code/env_setup.env'
+path = 'C:/Users/ccash/github_clone_repo/python_code/env_setup.env'
 load_dotenv(path)
 
 # Define variables
